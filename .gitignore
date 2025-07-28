@@ -1,6 +1,22 @@
-node_modules
-# Keep environment variables out of version control
+# Node.js
+node_modules/
+dist/
+build/
+*.log
 .env
+.env.*
+*.local
+*.cache/
+npm-debug.log*
 
-/generated/prisma
+# Prisma
+.prisma/
+*.db
+*.sqlite
+*.sqlite-journal
 
+# IDEs e SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
